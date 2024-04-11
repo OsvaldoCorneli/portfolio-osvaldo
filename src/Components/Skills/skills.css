@@ -2,12 +2,12 @@
 
 .icons img{
     width: 35%;
-    transition: transform 0.5s step-start;
+    transition: transform 1s step-start;
     cursor: pointer;
 }
 
 .icons img:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 

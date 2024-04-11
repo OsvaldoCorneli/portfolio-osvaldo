@@ -44,7 +44,12 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: 
+  linear-gradient(rgba(33,33,33,0.9), rgba(33,33,33,0.5)),
+  url("./../public/—Pngtree—technology background binary computer code_1264149.png"); 
+  background-size: cover;
 }
+
 
 @media (min-width: 760px){
   #header-app{

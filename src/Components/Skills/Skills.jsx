@@ -27,22 +27,22 @@ console.log(data)
         <div className="icons">
 
             <Modals imagen={htmlIcon} info={data[0]}/>
-            {/* <Modals imagen={CSSIcon} info={data[0]/>
-            <Modals imagen={JSIcon} info={data[0]/>
-            <Modals imagen={bootstrapIcon} info={data[0]/>
-            <Modals imagen={reactBootstrapicon} />
-            <Modals imagen={reactIcon}/>
-            <Modals imagen={ejsIcon}/>
-            <Modals imagen={reduxIcon}/>
-            <Modals imagen={viteicons}/>
-            <Modals imagen={nodeIcon}/>
-            <Modals imagen={expressicon}/>
-            <Modals imagen={sequelizeicon}/>
-            <Modals imagen={postgresqlIcon}/>
-            <Modals imagen={MysqlIcon}/>
-            <Modals imagen={sqlicon}/>
+            <Modals imagen={CSSIcon} info={data[1]}/>
+            <Modals imagen={JSIcon} info={data[2]}/>
+            <Modals imagen={bootstrapIcon} info={data[3]}/>
+            <Modals imagen={reactBootstrapicon} info={data[4]}/>
+            <Modals imagen={reactIcon} info={data[5]}/>
+            <Modals imagen={ejsIcon} info={data[6]}/>
+            <Modals imagen={reduxIcon} info={data[7]}/>
+            <Modals imagen={viteicons} info={data[8]}/>
+            <Modals imagen={nodeIcon} info={data[9]}/>
+            <Modals imagen={expressicon} info={data[10]}/>
+            <Modals imagen={sequelizeicon} info={data[11]}/>
+            <Modals imagen={postgresqlIcon} info={data[12]}/>
+            <Modals imagen={MysqlIcon} info={data[13]}/>
+            <Modals imagen={sqlicon} info={data[14]}/>
 
-         */}
+        
         </div>
 
        
