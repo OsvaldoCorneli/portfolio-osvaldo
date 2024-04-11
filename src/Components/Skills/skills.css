@@ -2,7 +2,8 @@
 
 .icons img{
     width: 35%;
-    transition: transform 0.5s step-start
+    transition: transform 0.5s step-start;
+    cursor: pointer;
 }
 
 .icons img:hover{
@@ -44,17 +45,19 @@
 
     .icons img{
 
-        width: 30%;
+        width: 25%;
+
+        
     }
     
     
     
     .icons{
         margin: 20px 0 30px 0;
-        display: grid;
         grid-template-columns: auto auto auto auto auto;
         gap: 30px;
-        place-items: center;
+        max-width: 1500px;
+
     }
 
 
