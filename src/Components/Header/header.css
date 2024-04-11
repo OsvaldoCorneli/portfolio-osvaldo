@@ -1,0 +1,155 @@
+
+#header-body{
+    
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    }
+
+    #burger-menu{
+        margin: 4px 0 0 0;
+    }
+    #burger-menu a{
+        padding: 1px 3px;
+        font-size: 20px;
+    }
+
+    #tittle img{
+        display: none;
+    }
+    
+    #icons{
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    #icons ul{
+        list-style: none;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
+    
+    #icons ul li a{
+        font-size: 30px;
+        margin: 0;
+        color: white;
+    }
+    
+    #icons ul li{
+        transition: transform 0.2s ease-in-out;
+    }
+    
+    #icons ul li:hover{
+        transform: scale(1.2);
+    } 
+    
+
+    h1{
+        margin: 0;
+        padding: 10px 0 0 0;
+        font-size: 35px;
+    }
+
+    h2{
+        font-size: 20px;
+        margin: 5px 0 0 ;
+    }
+
+@media (min-width: 760px){
+    #burger-menu{
+       display: none;
+    }
+
+    #header-body{
+    
+    margin: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    }
+
+    #icons{
+        display: flex;
+        justify-content: center;
+    }
+
+    #icons ul{
+        width: 50%;
+        max-width: 450px;
+    }
+}
+    
+
+@media(min-width: 1200px){
+ #header-body{
+height: 150px;
+margin: 0;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+#tittle{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+#tittle img{
+    display: block;
+    position: absolute;
+    left: 1%;
+    top: 5%;
+    z-index: 0;
+    width: 10%;
+    min-width: 200px;
+    max-width: 280px;
+}
+
+h1{
+    margin: 0;
+    padding: 10px 0 0 0;
+    font-size: 2.5rem;
+    z-index: 1;
+    
+}
+
+h2{
+    font-size: 1.6rem;
+    margin: 5px 0 0 ;
+    z-index: 1;
+}
+
+#icons{
+    justify-content: flex-end;
+    width: 50%;
+    margin: 15px 10px 0  0;
+}
+
+#icons ul{
+    list-style: none;
+    margin: 0 20px 0 0;
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+#icons ul li a{
+    font-size: 45px;
+    margin: 0;
+    color: white;
+}
+
+#icons ul li{
+    transition: transform 0.2s ease-in-out;
+}
+
+#icons ul li:hover{
+    transform: scale(1.2);
+} }

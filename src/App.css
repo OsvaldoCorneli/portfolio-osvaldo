@@ -1,0 +1,68 @@
+ *{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  background-color: rgb(33, 33, 33);
+  color: white;
+  margin: 0;
+}
+
+#header-app{
+  background-image: 
+  linear-gradient(rgba(33,33,33,0.9), rgba(33,33,33,0.2)),
+  url('../public/wallpaperbetter.jpg'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 10px 10px 10px;
+}
+
+.subtittle{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#aboutme-app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.separador{
+  width: 100%;
+  border-top: 3px solid rgba(139, 138, 138, 0.397);
+  border-bottom: 3px solid rgba(139, 138, 138, 0.397);
+  margin: 10px 0 0 0;
+  height: 2px;
+
+}
+
+@media (min-width: 760px){
+  #header-app{
+    padding: 0 10px 0 10px;
+    height: 300px;
+  }
+
+  .subtittle{
+    width: 80%;
+    justify-self: center;
+    justify-content: flex-start;
+    max-width: 830px;
+  }
+
+}
+
+@media (min-width: 760px){
+  .subtittle{
+    margin: 25px 0 0 0;
+    width: 80%;
+    justify-self: center;
+    justify-content: flex-start;
+    max-width: 1000px;
+  }
+
+
+}
