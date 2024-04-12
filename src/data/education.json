@@ -3,21 +3,21 @@
         "id": 1,
         "name": "CODO A CODO",
         "curso": "Full Stack Developer - JAVA",
-        "time": "Marzo 2024 - Julio 2024 / En curso"
+        "time": "Marzo 2024 -  En curso"
         
     }, {
         "id": 2,
         "name": "DIGITAL HOUSE",
         "curso": "Full Stack Developer - Node",
-        "time": "Agosto 2023 - Abril 2024 / En curso"
+        "time": "Agosto 2023 - En curso"
     },{
         "id": 3,
         "name": "SOY HENRY",
         "curso": "Full Stack Developer - Node",
-        "time": "Agosto 2023 - Abril 2024 / Finalizado"
+        "time": "Agosto 2023 - Noviembre 2023"
     },{
         "id": 4,
         "name": "ARGENTINA PROGRAMA 4.0",
         "curso": "Programacion",
-        "time": "Septiembre 2022 - Noviembre 2022 / Finalizado"}
+        "time": "Septiembre 2022 - Noviembre 2022"}
 ]

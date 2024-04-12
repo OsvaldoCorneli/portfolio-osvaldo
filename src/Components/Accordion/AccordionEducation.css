@@ -1,0 +1,78 @@
+#acordion{
+    width: 100%;
+    /* max-width: 763px; */
+}
+
+#education-body h5{
+    margin: 20px 0;
+    color: rgb(180, 178, 178);
+}
+
+
+/* fondo interno */
+.accordion-item{
+    background: linear-gradient(to right, #1f1b1b, #6b776b);
+    color: white;
+    max-width: 1550px;
+    
+}
+
+.accordion-button{
+    background: linear-gradient(to right, #1f1b1b, #6b776b);
+    color: white;
+    
+}
+
+
+.accordion-button img{
+    margin: 0 10px 0 0;
+    width: 35px;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: white;
+    color: white;
+    
+}
+
+.accordion-body ul{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+
+}
+
+.accordion-button:focus{
+    box-shadow:  0 0 2px white;
+}
+
+.accordion-button::after, .accordion-button:not(.collapsed)::after {
+    color: white;
+    box-shadow: none;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e")
+    ;
+
+}
+
+
+
+@media(min-width:760px){
+    .accordion-body ul{
+
+        grid-template-columns: auto auto;
+        gap: 25px;
+    
+    }
+    
+}
+
+
+@media(min-width:1500px){
+    #acordion{
+        width: 80%;
+        margin: 41px 0 0 0 ;
+    
+    }
+    
+    
+}
