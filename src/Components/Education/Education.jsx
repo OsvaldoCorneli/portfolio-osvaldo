@@ -23,7 +23,7 @@ export default function Education(){
             </div>
             </div>
             <div id="contenedor2-Educationbody">
-            <h5>Cursos Cortos</h5>
+            <h5>Cursos cortos</h5>
             <div id="acordion">
              <AccordionEducation/>
             </div>
