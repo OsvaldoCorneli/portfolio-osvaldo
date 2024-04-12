@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./modals.css"
 
 
@@ -15,6 +16,7 @@ function Modals({imagen, info}) {
         onHide={() => setShow(false)}
         dialogClassName="modal-90w"
         aria-labelledby="example-custom-modal-styling-title"
+        centered
       >
         <Modal.Header closeButton>
           <Modal.Title id="example-custom-modal-styling-title">

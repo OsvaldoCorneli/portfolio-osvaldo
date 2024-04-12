@@ -1,0 +1,26 @@
+#cartas-educacion{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 25px;
+}
+
+
+@media(min-width: 760px){
+    #cartas-educacion{
+        grid-template-columns: auto auto;
+        gap: 25px;
+    }
+}
+
+@media (min-width: 1500px){
+    #card-body{
+        max-width: 1000px;
+        gap: 100px;
+    }
+    
+    #cartas-educacion{
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+    }
+
+}

@@ -3,6 +3,9 @@ import Navbar from './Components/NavBar/Navbar'
 import AboutMe from './Components/AboutMe/AboutMe'
 import Skills from './Components/Skills/Skills'
 import './App.css'
+import Education from './Components/Education/Education'
+
+
 
 function App() {
   
@@ -38,6 +41,14 @@ function App() {
 
       <div className='separador'></div>
 
+      <div id="education-app">
+      <div className="subtittle">
+          <h3 id="education">Educacion</h3>
+        </div>
+        <Education/>
+      </div>
+    
+      <div className='separador'></div>
       
     </div>
     

@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 #contenedor1 #imagen{
@@ -41,7 +42,9 @@
     }
 
     #contenedor1 #imagen{
-        width: 100%;
+        width: 60%;
+        margin: 0 0;
+        padding: 0 0;
         max-width: 450px;
         align-self: flex-start;
     

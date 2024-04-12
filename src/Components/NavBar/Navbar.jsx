@@ -13,7 +13,8 @@ return(
 
         <ul>
             <li><a href="#sobre-mi">Sobre mi</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a id="botonSkills" href="#habilidades">Habilidades</a></li>
+            <li><a href="#education">Educacion</a></li>
             <li><a href="#">Proyectos</a></li>
             <li><a href="#">Contacto</a></li>    
         </ul>
