@@ -13,6 +13,8 @@ function App() {
 
   return (
     
+
+    
     <div id="app-body">
       <div id="header-app"> 
       <Header/>  
@@ -23,7 +25,7 @@ function App() {
       
       <div id="aboutme-app">
         <div className="subtittle">
-          <h3 id="sobre-mi">About Me</h3>
+          <h3 id="aboutMe">About Me</h3>
         </div>
           <AboutMe/>
       </div>
@@ -32,7 +34,7 @@ function App() {
 
       <div id="skills-app">
         <div className="subtittle">
-          <h3 id="habilidades">Habilididades</h3>
+          <h3 id="skills">Habilididades</h3>
         </div>
         <div>
             <Skills/>
@@ -52,7 +54,7 @@ function App() {
 
       <div id="proyects-app">
       <div className="subtittle">
-          <h3 id="education">Proyectos</h3>
+          <h3 id="projects">Proyectos</h3>
         </div>
          <Proyects/>
       </div>

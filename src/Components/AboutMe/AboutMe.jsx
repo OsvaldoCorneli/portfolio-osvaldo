@@ -1,6 +1,6 @@
 import React from "react";
-import "./AboutMe.css"
-import "../../../public/Avatar.jpg"
+import "./AboutMe.css";
+import avatar from "../../../public/Perfil/Avatar.jpg"
 
 
 export default function AboutMe(){
@@ -10,7 +10,7 @@ export default function AboutMe(){
         <div id="aboutme-body">
             <div id="contenedor1">
                 <div id="imagen">
-                    <img src="../../../public/Avatar.jpg" alt="Avatar Perfil" />
+                    <img src={avatar} alt="Avatar Perfil" />
                 </div>
                 <div id="text">
                      <p>

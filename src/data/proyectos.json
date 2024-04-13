@@ -20,8 +20,8 @@
     },
     {   
         "id": 4,
-        "tittle": "Ryck and Morty",
-        "description": "El Proyecto Integrador del Bootcamp 'React and Morty', desarrollado a lo largo del curso, fue una oportunidad para aplicar de manera integral los conocimientos adquiridos en React y otras tecnologías. Utilizamos el universo de 'Rick and Morty' como base para crear una aplicación funcional y creativa.",
+        "tittle": "Rick and Morty",
+        "description": "El Proyecto Integrador del Bootcamp, desarrollado a lo largo del curso, fue una oportunidad para aplicar de manera integral los conocimientos adquiridos en React y otras tecnologías. Utilizamos el universo de 'Rick and Morty' como base para crear una aplicación funcional y creativa.",
         "URL": "https://github.com/OsvaldoCorneli/rick_and_morty"
     },
     {   

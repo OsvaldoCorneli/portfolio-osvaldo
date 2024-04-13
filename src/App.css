@@ -10,7 +10,7 @@ body{
 #header-app{
   background-image: 
   linear-gradient(rgba(33,33,33,0.9), rgba(33,33,33,0.2)),
-  url('../public/wallpaperbetter.jpg'); 
+  url('../public/img/wallpaperbetter.jpg'); 
   background-size: cover;
   background-position: center;
   display: flex;
@@ -48,7 +48,7 @@ body{
   align-items: center;
   background-image: 
   linear-gradient(rgba(33,33,33,0.9), rgba(33,33,33,0.5)),
-  url("./../public/—Pngtree—technology background binary computer code_1264149.png"); 
+  url("./../public/img/—Pngtree—technology\ background\ binary\ computer\ code_1264149.png"); 
   background-size: cover;
   padding: 20px 0;
 }
