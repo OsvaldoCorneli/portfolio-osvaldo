@@ -5,6 +5,7 @@ import Skills from './Components/Skills/Skills'
 import './App.css'
 import Education from './Components/Education/Education'
 import Proyects from './Components/Proyects/Proyects'
+import { faWindows } from '@fortawesome/free-brands-svg-icons'
 
 
 function App() {
@@ -12,20 +13,35 @@ function App() {
   window.addEventListener('scroll', function() {
     const targetHeader = document.getElementById('navbar-body');
     const navFixed = document.getElementById('navbar-fixed')
-
+    const anchoVentana = window.innerWidth;
+    const LargoVentana = window.innerHeight;
     const bounding = targetHeader.getBoundingClientRect();
-
+    
     if (bounding.top >= 0 && bounding.bottom <= window.innerHeight) {
-        console.log("en la pantalla")
         navFixed.style.display = "none"
+        navFixed.style.position = "none"
+
     } else {
-      console.log("fuera de pantalla")
+      if(anchoVentana >= 760){
       navFixed.style.display = "block"
-        
+      navFixed.style.position = "Fixed"
+      }
+      window.addEventListener("orientationchange", function() {     
+
+        if (window.orientation == 0) {
+
+          if(LargoVentana < 760){
+            navFixed.style.display = "none"
+            navFixed.style.position = "none"
+          }
+        } 
+      });
         
     }
 });
 
+
+ 
 
 
   return (
@@ -33,7 +49,7 @@ function App() {
 
     
     <div id="app-body">
-      <div id="navbar-fixed" style={{ position: 'fixed' }}>
+      <div id="navbar-fixed">
       <ul>
             <a href="#aboutMe"><li>Sobre mi</li></a>
             <a id="botonSkills" href="#skills"><li>Habilidades</li></a>

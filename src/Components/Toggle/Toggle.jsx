@@ -13,6 +13,22 @@ function Toggle() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+
+  window.addEventListener("orientationchange", function() {     
+    const widthScreen = window.innerHeight
+
+    if (window.orientation == 0) {
+        if(widthScreen >= 760){
+          handleClose()
+        }
+    } else{
+      if(widthScreen >= 760){
+        handleClose()
+      }
+    }
+  });
+    
+
   function onClickMenu(id){
     const cerrar = document.querySelector(".btn-close")
     switch(id){
