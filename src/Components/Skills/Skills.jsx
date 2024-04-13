@@ -20,7 +20,6 @@ import data from "../../data/skills.json"
 
 
 export default function Skills(){
-console.log(data)
 
     return(
 

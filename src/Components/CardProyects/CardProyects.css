@@ -1,0 +1,29 @@
+.card{
+    width: 90%;
+    margin: 25px 0;
+    background: linear-gradient(to right, #1f1b1b, #3e413e);
+    color: white;
+    box-shadow: 1px 2px 0px rgb(65, 63, 63);
+}
+
+.btn{
+    width: 100%;
+    max-width: 110px;
+    background-color: #686b68;
+    box-shadow: 0 0 2px #686b68;
+    --bs-btn-border-color: #a2a5a2;
+}
+
+.btn:hover {
+    background-color: #a2a5a2;
+    box-shadow: 0 0 2px #a2a5a2;
+    border-color: #a2a5a2;
+    --bs-btn-border-color: #a2a5a2;
+
+}
+
+@media(min-width: 350px){
+
+.card{
+    width: 20rem;
+}}

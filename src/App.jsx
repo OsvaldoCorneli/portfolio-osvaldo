@@ -4,7 +4,7 @@ import AboutMe from './Components/AboutMe/AboutMe'
 import Skills from './Components/Skills/Skills'
 import './App.css'
 import Education from './Components/Education/Education'
-
+import Proyects from './Components/Proyects/Proyects'
 
 
 function App() {
@@ -49,6 +49,13 @@ function App() {
       </div>
     
       <div className='separador'></div>
+
+      <div id="proyects-app">
+      <div className="subtittle">
+          <h3 id="education">Proyectos</h3>
+        </div>
+         <Proyects/>
+      </div>
       
     </div>
     

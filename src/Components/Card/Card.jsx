@@ -2,9 +2,6 @@ import React from "react";
 import "./card.css"
 export default function Card({info, imagen}){
 
-
-
-
 return(
     <div id="card-body">
      <div>

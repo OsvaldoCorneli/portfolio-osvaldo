@@ -1,0 +1,39 @@
+#proyects-body{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    place-items: center;
+}
+
+
+
+@media(min-width: 760px){
+
+    #proyects-body{
+        grid-template-columns: auto auto;
+     
+    }
+
+    
+
+}
+
+@media(min-width: 1200px){
+
+    #proyects-body{
+        grid-template-columns: auto auto auto;
+     
+    }
+
+
+}
+
+@media(min-width: 1500px){
+
+    #proyects-body{
+        grid-template-columns: auto auto auto auto;
+     
+    }
+
+
+}

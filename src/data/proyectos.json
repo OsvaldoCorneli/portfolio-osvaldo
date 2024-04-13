@@ -1,0 +1,36 @@
+[
+    {   
+        "id": 1,
+        "tittle": "La tienda de maria",
+        "description": " Proyecto académico grupal, ayudando a impulsar 'La Tienda de María', resaltando su enfoque moderno en productos religiosos. Segmentamos hacia la comunidad católica joven y humanizamos la marca. Nuestro propósito fue contribuir con estrategias innovadoras para su éxito.",
+        "URL": "https://github.com/OsvaldoCorneli/grupo_3_latiendademaria"
+    },
+    {   
+        "id": 2,
+        "tittle": "CreVa Group",
+        "description": "proyecto académico para la empresa real Creva. Se enfoca en potenciar las habilidades individuales. Colaboramos estrechamente con el equipo de Creva para desarrollar estrategias que maximizaran el valor de cada persona. Nuestro objetivo era impulsar el crecimiento personal y profesional de manera innovadora y efectiva.",
+        "URL": "https://github.com/CrevaGroup",
+        "deploy": "https://creva.vercel.app/"
+    },
+    {   
+        "id": 3,
+        "tittle": "Proyecto individual Drivers",
+        "description": "Proyecto individual evaluativo, el cual representó la culminación de mi aprendizaje en el bootcamp. Utilicé una variedad de tecnologías, incluyendo React, Redux, Sequelize y PostgreSQL, para crear una aplicación que demostrara mis habilidades y conocimientos adquiridos durante el curso.",
+        "URL": "https://github.com/OsvaldoCorneli/PI-drivers"
+    },
+    {   
+        "id": 4,
+        "tittle": "Ryck and Morty",
+        "description": "El Proyecto Integrador del Bootcamp 'React and Morty', desarrollado a lo largo del curso, fue una oportunidad para aplicar de manera integral los conocimientos adquiridos en React y otras tecnologías. Utilizamos el universo de 'Rick and Morty' como base para crear una aplicación funcional y creativa.",
+        "URL": "https://github.com/OsvaldoCorneli/rick_and_morty"
+    },
+    {   
+        "id": 5,
+        "tittle": "Proyecto FrontEnd",
+        "description": "Desarrollé un currículum online como proyecto evaluativo para el curso 'Primeros Pasos del Desarrollo FrontEnd'. Este proyecto me permitió aplicar mis conocimientos en HTML, CSS y JavaScript",
+        "URL": "https://github.com/OsvaldoCorneli/proyectofinalfrontend"
+    }
+
+
+
+]
