@@ -19,7 +19,6 @@ return(
         <div id="icons-contact">
     <ul>
         <li><a href="https://www.linkedin.com/in/osvaldo-corneli-nassif-822728268/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a></li>
-        <li><a href="https://github.com/OsvaldoCorneli" target="_blank"><FontAwesomeIcon icon={faSquareGithub} /></a></li>
         <li><a href=""><FontAwesomeIcon icon={faSquareEnvelope} /></a></li>
     </ul> 
 

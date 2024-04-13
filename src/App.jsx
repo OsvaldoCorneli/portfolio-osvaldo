@@ -113,9 +113,9 @@ function App() {
       <div className='separador'></div>
     
     <footer>
-    <div>
 
-    <h6>© Desarrollado por Osvaldo Matias Corneli Nassifs | 2024 </h6>
+    <div>
+    <h6>© Desarrollado por Osvaldo Matias Corneli Nassif | 2024 </h6>
     <h6>Ultima actualizacion Abril 2024</h6>
     </div>
 
