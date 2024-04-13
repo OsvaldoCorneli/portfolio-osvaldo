@@ -89,6 +89,19 @@ body{
     justify-content: flex-start;
     max-width: 1350px;
   }
+#navbar-fixed{
+  display: none;
+  width: 100%;
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+
+#navbar-fixed #navbar-body{
+
+  margin: 0;
+
+}
+
 }
 
 

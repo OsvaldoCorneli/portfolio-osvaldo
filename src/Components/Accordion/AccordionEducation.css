@@ -63,6 +63,13 @@
         gap: 25px;
     
     }
+
+    .accordion-item{
+
+        max-width: 723px;
+        
+    }
+    
     
 }
 

@@ -59,11 +59,11 @@ function Toggle() {
         </Offcanvas.Header>
         <Offcanvas.Body>
         <ul>
-        <li><a onClick={() => onClickMenu(1)}>Sobre mi</a></li>
-        <li><a onClick={() => onClickMenu(2)}>Habilidades</a></li>
-        <li><a onClick={() => onClickMenu(3)}>Educacion</a></li>
-        <li><a onClick={() => onClickMenu(4)}>Proyectos</a></li>
-        <li><a onClick={() => onClickMenu(5)}>Contacto</a></li>   
+        <a onClick={() => onClickMenu(1)}><li>Sobre mi</li></a>
+        <a onClick={() => onClickMenu(2)}><li>Habilidades</li></a>
+        <a onClick={() => onClickMenu(3)}><li>Educacion</li></a>
+        <a onClick={() => onClickMenu(4)}><li>Proyectos</li></a>
+        <a onClick={() => onClickMenu(5)}><li>Contacto</li></a>   
         </ul>
         </Offcanvas.Body>
       </Offcanvas>

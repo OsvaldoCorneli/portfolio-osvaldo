@@ -42,19 +42,33 @@
     padding: 0;
 }
 
-.offcanvas-body ul li a{
+.offcanvas-body ul a {
     text-decoration: none;
     color: white;
     
+    
 }
 
-.offcanvas-body ul li{
+.offcanvas-body ul a li{
     width: 250px;
     font-size: 20px;
     background-color: rgb(36, 34, 34);
-    margin: 3px;
+    margin: 10px;
     border-radius: 9px;
     padding: 10px;
     text-align: center;
+    
+}
+
+
+.offcanvas-body ul a li:hover{
+    background-color: rgb(66, 63, 63);;
+    
+}
+
+.offcanvas-body ul a:hover {
+   background-color: rgba(170, 170, 170, 0.5);
+
+   border-radius: 9px;
     
 }

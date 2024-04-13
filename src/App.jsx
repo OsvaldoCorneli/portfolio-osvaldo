@@ -9,6 +9,23 @@ import Proyects from './Components/Proyects/Proyects'
 
 function App() {
   
+  window.addEventListener('scroll', function() {
+    const targetHeader = document.getElementById('navbar-body');
+    const navFixed = document.getElementById('navbar-fixed')
+
+    const bounding = targetHeader.getBoundingClientRect();
+
+    if (bounding.top >= 0 && bounding.bottom <= window.innerHeight) {
+        console.log("en la pantalla")
+        navFixed.style.display = "none"
+    } else {
+      console.log("fuera de pantalla")
+      navFixed.style.display = "block"
+        
+        
+    }
+});
+
 
 
   return (
@@ -16,6 +33,15 @@ function App() {
 
     
     <div id="app-body">
+      <div id="navbar-fixed" style={{ position: 'fixed' }}>
+      <ul>
+            <a href="#aboutMe"><li>Sobre mi</li></a>
+            <a id="botonSkills" href="#skills"><li>Habilidades</li></a>
+            <a href="#education"><li>Educacion</li></a>
+            <a href="#projects"><li>Proyectos</li></a>
+            <a href="#"><li>Contacto</li></a>  
+        </ul>
+      </div> 
       <div id="header-app"> 
       <Header/>  
       <Navbar/>   
@@ -34,7 +60,7 @@ function App() {
 
       <div id="skills-app">
         <div className="subtittle">
-          <h3 id="skills">Habilididades</h3>
+          <h3 id="skills">Habilidades</h3>
         </div>
         <div>
             <Skills/>

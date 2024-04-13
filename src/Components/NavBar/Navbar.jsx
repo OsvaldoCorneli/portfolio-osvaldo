@@ -7,16 +7,19 @@ import "./navbar.css"
 export default function Navbar(){
 
 
+    
+
+
 return(
 
     <div id="navbar-body">
 
         <ul>
-            <li><a href="#aboutMe">Sobre mi</a></li>
-            <li><a id="botonSkills" href="#skills">Habilidades</a></li>
-            <li><a href="#education">Educacion</a></li>
-            <li><a href="#projects">Proyectos</a></li>
-            <li><a href="#">Contacto</a></li>    
+            <a href="#aboutMe"><li>Sobre mi</li></a>
+            <a id="botonSkills" href="#skills"><li>Habilidades</li></a>
+            <a href="#education"><li>Educacion</li></a>
+            <a href="#projects"><li>Proyectos</li></a>
+            <a href="#"><li>Contacto</li></a>  
         </ul>
 
 
