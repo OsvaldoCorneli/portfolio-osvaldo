@@ -19,7 +19,7 @@ return(
             <a id="botonSkills" href="#skills"><li>Habilidades</li></a>
             <a href="#education"><li>Educacion</li></a>
             <a href="#projects"><li>Proyectos</li></a>
-            <a href="#"><li>Contacto</li></a>  
+            <a href="#contact"><li>Contacto</li></a>  
         </ul>
 
 

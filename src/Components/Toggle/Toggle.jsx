@@ -53,7 +53,8 @@ function Toggle() {
         break;
 
         case 5:
-            console.log("5")
+        window.location.href = "#contact"
+        cerrar.click()
         break
 
         default:

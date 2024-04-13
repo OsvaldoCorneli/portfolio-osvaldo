@@ -5,8 +5,7 @@ import Skills from './Components/Skills/Skills'
 import './App.css'
 import Education from './Components/Education/Education'
 import Proyects from './Components/Proyects/Proyects'
-import { faWindows } from '@fortawesome/free-brands-svg-icons'
-
+import Contact from './Components/Contact/Contact'
 
 function App() {
   
@@ -55,7 +54,7 @@ function App() {
             <a id="botonSkills" href="#skills"><li>Habilidades</li></a>
             <a href="#education"><li>Educacion</li></a>
             <a href="#projects"><li>Proyectos</li></a>
-            <a href="#"><li>Contacto</li></a>  
+            <a href="#contact"><li>Contacto</li></a>  
         </ul>
       </div> 
       <div id="header-app"> 
@@ -100,8 +99,34 @@ function App() {
         </div>
          <Proyects/>
       </div>
+
+      <div className='separador'></div>
       
+    
+      <div id="contact-app">
+      <div className="subtittle">
+          <h3 id="contact">Contacto</h3>
+        </div>
+         <Contact/>
+      </div>
+
+      <div className='separador'></div>
+    
+    <footer>
+    <div>
+
+    <h6>© Desarrollado por Osvaldo Matias Corneli Nassifs | 2024 </h6>
+    <h6>Ultima actualizacion Abril 2024</h6>
     </div>
+
+
+    </footer>
+    
+    
+    
+    
+    </div>
+    
     
 
 

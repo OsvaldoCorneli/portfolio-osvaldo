@@ -72,6 +72,25 @@ body{
   padding: 20px 0;
 }
 
+#contact-app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+
+}
+
+footer{
+  background-color: black;
+  padding: 25px;
+}
+
+footer div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media(max-height: 400px){
   #navbar-fixed{
     display: "none";
