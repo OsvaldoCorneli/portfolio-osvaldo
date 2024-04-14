@@ -95,6 +95,10 @@ footer div h6{
   text-align: center;
 }
 
+#navbar-fixed ul a li{
+  cursor: pointer;
+}
+
 @media(max-height: 400px){
   #navbar-fixed{
     display: "none";
