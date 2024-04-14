@@ -66,7 +66,7 @@ function App() {
       
       <div id="aboutme-app">
         <div className="subtittle">
-          <h3 id="aboutMe">About Me</h3>
+          <h3 id="aboutMe">Sobre mi</h3>
         </div>
           <AboutMe/>
       </div>
