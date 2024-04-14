@@ -16,12 +16,11 @@ return(
 
     <div id="proyects-body">
         
-            <CardsProyects info={data[0]} img={portfolio}/>
-            <CardsProyects info={data[1]} img={ltdm}/>
-            <CardsProyects info={data[2]} img={creva}/>
-            <CardsProyects info={data[3]} img={pi}/>
-            <CardsProyects info={data[4]} img={rym}/>
-            <CardsProyects info={data[5]} img={pffe}/>
+            <CardsProyects info={data[4]} img={ltdm}/>
+            <CardsProyects info={data[3]} img={creva}/>
+            <CardsProyects info={data[2]} img={pi}/>
+            <CardsProyects info={data[1]} img={rym}/>
+            <CardsProyects info={data[0]} img={pffe}/>
 
     </div>
 
