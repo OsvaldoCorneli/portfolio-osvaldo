@@ -1,9 +1,10 @@
 .card{
     width: 90%;
+    min-height: 540px;
     margin: 25px 0;
     background: linear-gradient(to right, #1f1b1b, #3e413e);
     color: white;
-    box-shadow: 1px 2px 0px rgb(65, 63, 63);
+    box-shadow: 1px 3px 2px rgb(65, 63, 63);
 }
 
 .card-body .btn{
@@ -16,7 +17,7 @@
 
 .card-body.btn:hover {
     background-color: #a2a5a2;
-    box-shadow: 0 0 2px #a2a5a2;
+    box-shadow: 0 2px 4px #a2a5a2;
     border-color: #a2a5a2;
     --bs-btn-border-color: #a2a5a2;
 
@@ -31,6 +32,44 @@
     --bs-btn-active-border-color: #2c2d30;
     --bs-btn-hover-bg: #2c2d30; 
     --bs-btn-hover-border-color: #2c2d30;
+}
+
+#textBoton{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+
+@media(min-width:320px){
+
+.card{
+    width: 90%;
+    min-height: 570px;
+
+}
+
+.card-text{
+    min-height: 240px;
+}
+
+.card-body .btn{
+    width: 100%;
+    min-width: 105px;
+    max-width: 115px;
+    background-color: #686b68;
+    box-shadow: 0 0 2px #686b68;
+    --bs-btn-border-color: #a2a5a2;
+}
+
+.card-img-top{
+    min-height: 208px;
+}
+
+
 }
 
 @media(min-width: 350px){
