@@ -44,7 +44,7 @@
 }
 
 
-@media(min-width:320px){
+@media(min-width:300px){
 
 .card{
     width: 90%;
@@ -58,8 +58,8 @@
 
 .card-body .btn{
     width: 100%;
-    min-width: 105px;
-    max-width: 115px;
+    min-width: 130px;
+    max-width: 140px;
     background-color: #686b68;
     box-shadow: 0 0 2px #686b68;
     --bs-btn-border-color: #a2a5a2;
