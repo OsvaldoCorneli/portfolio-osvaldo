@@ -35,26 +35,31 @@ function Toggle() {
         case 1:
             window.location.href = "#aboutMe"
             cerrar.click()
+            deleteRouteLink()
         break;
 
         case 2:
             window.location.href = "#skills"
             cerrar.click()
+            deleteRouteLink()
         break;
 
         case 3:
             window.location.href = "#education"
             cerrar.click()
+            deleteRouteLink()
         break;
 
         case 4:
             window.location.href = "#projects"
             cerrar.click()
+            deleteRouteLink()
         break;
 
         case 5:
         window.location.href = "#contact"
         cerrar.click()
+        deleteRouteLink()
         break
 
         default:
@@ -63,6 +68,11 @@ function Toggle() {
         
     }
   }
+
+  function deleteRouteLink(){
+    if (window.location.hash) {
+      history.replaceState({}, document.title, window.location.href.split('#')[0]);
+  }}
 
   return (
     <>
