@@ -90,9 +90,9 @@ function App() {
       <div id="navbar-fixed">
       <ul>
             <a onClick={()=>{navegar(1)}}><li>Sobre mi</li></a>
-            <a id="botonSkills" onClick={()=>{navegar(2)}}><li>Habilidades</li></a>
-            <a onClick={()=>{navegar(3)}}><li>Educacion</li></a>
             <a onClick={()=>{navegar(4)}}><li>Proyectos</li></a>
+            <a onClick={()=>{navegar(3)}}><li>Educacion</li></a>
+            <a id="botonSkills" onClick={()=>{navegar(2)}}><li>Habilidades</li></a>
             <a onClick={()=>{navegar(5)}}><li>Contacto</li></a>  
         </ul>
       </div> 
@@ -112,14 +112,12 @@ function App() {
         
         <div className='separador'></div>
 
-      <div id="skills-app">
-        <div className="subtittle">
-          <h3 id="skills">Habilidades</h3>
+        <div id="proyects-app">
+          <div className="subtittle">
+            <h3 id="projects">Proyectos</h3>
+          </div>
+           <Proyects/>
         </div>
-        <div>
-            <Skills/>
-        </div>
-      </div>
 
       <div className='separador'></div>
 
@@ -132,11 +130,13 @@ function App() {
     
       <div className='separador'></div>
 
-      <div id="proyects-app">
-      <div className="subtittle">
-          <h3 id="projects">Proyectos</h3>
+      <div id="skills-app">
+        <div className="subtittle">
+          <h3 id="skills">Habilidades</h3>
         </div>
-         <Proyects/>
+        <div>
+            <Skills/>
+        </div>
       </div>
 
       <div className='separador'></div>

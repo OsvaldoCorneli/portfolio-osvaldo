@@ -51,9 +51,9 @@ return(
 
         <ul>
             <a onClick={()=>{navegar(1)}}><li>Sobre mi</li></a>
-            <a id="botonSkills" onClick={()=>{navegar(2)}}><li>Habilidades</li></a>
-            <a onClick={()=>{navegar(3)}}><li>Educacion</li></a>
             <a onClick={()=>{navegar(4)}}><li>Proyectos</li></a>
+            <a onClick={()=>{navegar(3)}}><li>Educacion</li></a>
+            <a id="botonSkills" onClick={()=>{navegar(2)}}><li>Habilidades</li></a>
             <a onClick={()=>{navegar(5)}}><li>Contacto</li></a>  
         </ul>
 

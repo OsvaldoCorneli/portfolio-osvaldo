@@ -15,7 +15,7 @@ export default function AboutMe(){
                 <div id="text">
                      <p>
                     ¡Hola! Soy Osvaldo Matías Corneli Nassif, 
-            un desarrollador full stack junior con experiencia en 
+            un desarrollador full stack con experiencia en 
             proyectos grupales e individuales. Mi enfoque principal es
              JavaScript, tanto en el front-end como en el back-end,
               con Node.js y Express.js. Destaco por mi capacidad para 
@@ -26,9 +26,8 @@ export default function AboutMe(){
                 salir a comer y hacer actividades al aire libre. 
                 ¡Emocionado por contribuir a proyectos innovadores!
                 <br /><br />
-
-
-            ¡Gracias por visitar mi portfolio!
+                
+            !Puedes ver mis proyectos!
             </p>
             </div>
             </div>

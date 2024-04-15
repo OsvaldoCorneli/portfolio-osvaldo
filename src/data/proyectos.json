@@ -8,26 +8,26 @@
     {   
         "id": 2,
         "tittle": "Rick and Morty",
-        "description": "El Proyecto Integrador del Bootcamp, desarrollado a lo largo del curso, fue una oportunidad para aplicar de manera integral los conocimientos adquiridos en React y otras tecnologías. Utilizamos el universo de 'Rick and Morty' como base para crear una aplicación funcional y creativa.",
+        "description": "Proyecto Integrador del Bootcamp Soy Henry, desarrolle a lo largo del curso una aplicacion web de visualizacion de datos , fue una oportunidad para aplicar de manera integral los conocimientos adquiridos en React y otras tecnologías. Utilizamos el universo de 'Rick and Morty' como base para crear una aplicación funcional y creativa.",
         "URL": "https://github.com/OsvaldoCorneli/rick_and_morty"
     },
     {   
         "id": 3,
         "tittle": "Proyecto individual Drivers",
-        "description": "Proyecto individual evaluativo, el cual representó la culminación de mi aprendizaje en el bootcamp. Utilicé una variedad de tecnologías, incluyendo React, Redux, Sequelize y PostgreSQL, para crear una aplicación que demostrara mis habilidades y conocimientos adquiridos durante el curso.",
+        "description": "Proyecto individual evaluativo del bootcamp Soy Henry, el cual representó la culminación de mi aprendizaje. desarrolle una aplicacion web de visualizacion de datos utilizando una variedad de tecnologías, incluyendo React, Redux, Sequelize y PostgreSQL.",
         "URL": "https://github.com/OsvaldoCorneli/PI-drivers"
     },
     {   
         "id": 4,
         "tittle": "CreVa Group",
-        "description": "Proyecto académico para la empresa real Creva. Se enfoca en potenciar las habilidades individuales. Colaboramos estrechamente con el equipo de Creva para desarrollar estrategias que maximizaran el valor de cada persona. Nuestro objetivo era impulsar el crecimiento personal y profesional de manera innovadora y efectiva.",
+        "description": "Proyecto para la empresa Creva. Creamos una plataforma de servicios que se enfoca en potenciar las habilidades individuales. Colaboramos estrechamente con el equipo de Creva para su desarrollaro. El objetivo era impulsar el crecimiento personal y profesional de manera innovadora y efectiva.",
         "URL": "https://github.com/CrevaGroup",
         "deploy": "https://creva.vercel.app/"
     },
     {   
         "id": 5,
         "tittle": "La tienda de maria",
-        "description": "Proyecto académico grupal, ayudando a impulsar 'La Tienda de María', resaltando su enfoque moderno en productos religiosos. Segmentamos hacia la comunidad católica joven y humanizamos la marca. Nuestro propósito fue contribuir con estrategias innovadoras para su éxito.",
+        "description": "Proyecto donde desarrollamos un E-commerce para 'La Tienda de María', enfocándonos en productos religiosos modernos y segmentando hacia la comunidad católica joven. Humanizamos la marca y aplicamos estrategias innovadoras para su éxito.",
         "URL": "https://github.com/OsvaldoCorneli/grupo_3_latiendademaria"
     }
    
