@@ -7,31 +7,26 @@ import "./navbar.css"
 export default function Navbar(){
 
     function navegar(id){
-
+        let destino = 0;
         switch(id){
             case 1:
-                window.location.href = "#aboutMe"
-                deleteRouteLink()
+                destino = document.getElementById("aboutMe").offsetTop;    
             break;
     
             case 2:
-                window.location.href = "#skills"
-                deleteRouteLink()
+                destino = document.getElementById("skills").offsetTop;
             break;
     
             case 3:
-                window.location.href = "#education"
-                deleteRouteLink()
+                destino = document.getElementById("education").offsetTop;
             break;
     
             case 4:
-                window.location.href = "#projects"
-                deleteRouteLink()
+              destino = document.getElementById("projects").offsetTop;            
             break;
     
-            case 5:
-                window.location.href = "#contact"
-                deleteRouteLink()
+            case 5:      
+                destino = document.getElementById("contact").offsetTop;         
             break
     
             default:
@@ -39,11 +34,12 @@ export default function Navbar(){
     
             
         }
+        window.scrollTo({
+            top: destino,
+            behavior: 'smooth'
+        });
+
       }
-      function deleteRouteLink(){
-      if (window.location.hash) {
-        history.replaceState({}, document.title, window.location.href.split('#')[0]);
-    }}
 
 return(
 

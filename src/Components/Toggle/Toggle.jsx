@@ -31,48 +31,38 @@ function Toggle() {
 
   function onClickMenu(id){
     const cerrar = document.querySelector(".btn-close")
+    let destino = 0;
     switch(id){
         case 1:
-            window.location.href = "#aboutMe"
-            cerrar.click()
-            deleteRouteLink()
+          destino = document.getElementById("aboutMe").offsetTop;   
         break;
 
         case 2:
-            window.location.href = "#skills"
-            cerrar.click()
-            deleteRouteLink()
+          destino = document.getElementById("skills").offsetTop;
         break;
 
         case 3:
-            window.location.href = "#education"
-            cerrar.click()
-            deleteRouteLink()
+          destino = document.getElementById("education").offsetTop;
         break;
 
-        case 4:
-            window.location.href = "#projects"
-            cerrar.click()
-            deleteRouteLink()
+        case 4: 
+        destino = document.getElementById("projects").offsetTop;  
         break;
 
         case 5:
-        window.location.href = "#contact"
-        cerrar.click()
-        deleteRouteLink()
+        destino = document.getElementById("contact").offsetTop; 
         break
 
         default:
         break;
-
-        
     }
+    window.scrollTo({
+      top: destino,
+      behavior: 'smooth'
+  });
+  cerrar.click()
   }
 
-  function deleteRouteLink(){
-    if (window.location.hash) {
-      history.replaceState({}, document.title, window.location.href.split('#')[0]);
-  }}
 
   return (
     <>

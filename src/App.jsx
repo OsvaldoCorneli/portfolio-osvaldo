@@ -41,45 +41,40 @@ function App() {
 
 
 
-  function navegar(id){
+function navegar(id){
+  let destino = 0;
+  switch(id){
+      case 1:
+          destino = document.getElementById("aboutMe").offsetTop;    
+      break;
 
-      switch(id){
-          case 1:
-              window.location.href = "#aboutMe"
-              deleteRouteLink()
-          break;
-  
-          case 2:
-              window.location.href = "#skills"
-              deleteRouteLink()
-          break;
-  
-          case 3:
-              window.location.href = "#education"
-              deleteRouteLink()
-          break;
-  
-          case 4:
-              window.location.href = "#projects"
-              deleteRouteLink()
-          break;
-  
-          case 5:
-              window.location.href = "#contact"
-              deleteRouteLink()
-          break
-  
-          default:
-          break;
-  
-          
-      }
-    }
-    function deleteRouteLink(){
-    if (window.location.hash) {
-      history.replaceState({}, document.title, window.location.href.split('#')[0]);
-  }}
+      case 2:
+          destino = document.getElementById("skills").offsetTop;
+      break;
 
+      case 3:
+          destino = document.getElementById("education").offsetTop;
+      break;
+
+      case 4:
+        destino = document.getElementById("projects").offsetTop;            
+      break;
+
+      case 5:      
+          destino = document.getElementById("contact").offsetTop;         
+      break
+
+      default:
+      break;
+
+      
+  }
+  window.scrollTo({
+      top: destino,
+      behavior: 'smooth'
+  });
+
+}
 
 
   return (
