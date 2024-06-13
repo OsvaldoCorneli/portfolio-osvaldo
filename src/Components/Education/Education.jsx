@@ -17,11 +17,11 @@ export default function Education(){
             <div id="contenedor1-Educationbody">
             <h5>Bootcamps</h5>
             <div id="cartas-educacion">
+            <Card info={data[4]} imagen={coder}/>
             <Card info={data[0]} imagen={CaC}/>
             <Card info={data[1]} imagen={digital}/>
             <Card info={data[2]} imagen={henry}/>
             <Card info={data[3]} imagen={AP}/>
-            <Card info={data[4]} imagen={coder}/>
             </div>
             </div>
             <div id="contenedor2-Educationbody">
