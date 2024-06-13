@@ -19,11 +19,13 @@ function App() {
     if (bounding.top >= 0 && bounding.bottom <= window.innerHeight) {
         navFixed.style.display = "none"
         navFixed.style.position = "none"
+        targetHeader.style.visibility = "visible"
 
     } else {
       if(anchoVentana >= 760){
       navFixed.style.display = "block"
       navFixed.style.position = "Fixed"
+      targetHeader.style.visibility = "hidden"
       }
       window.addEventListener("orientationchange", function() {     
 
@@ -150,7 +152,7 @@ function navegar(id){
 
     <div>
     <h6>© Desarrollado por Osvaldo Matias Corneli Nassif | 2024 </h6>
-    <h6>Ultima actualizacion Abril 2024</h6>
+    <h6>Ultima actualizacion Junio 2024</h6>
     </div>
 
 

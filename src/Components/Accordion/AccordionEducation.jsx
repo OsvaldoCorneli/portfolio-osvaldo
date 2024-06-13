@@ -16,6 +16,7 @@ function AccordionEducation() {
             <li>Curso profesional de Git</li>
             <li>Curso profesional de Typescript</li>
             <li>Curso de fundamentos de UX para programadores</li>
+            <li>Curso profesional Vue 3</li>
           </ul>
         </Accordion.Body>
       </Accordion.Item>

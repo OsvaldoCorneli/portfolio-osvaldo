@@ -6,6 +6,7 @@ import digital from '../../../public/Logos-educacion/DH.png'
 import henry from '../../../public/Logos-educacion/descarga.jpg'
 import CaC from '../../../public/Logos-educacion/CodoaCodo.png'
 import AP from '../../../public/Logos-educacion/Argentinaprograma.png'
+import coder from '../../../public/Logos-educacion/CoderHouse.jpg'
 import AccordionEducation from "../Accordion/AccordionEducation";
 
 export default function Education(){
@@ -20,6 +21,7 @@ export default function Education(){
             <Card info={data[1]} imagen={digital}/>
             <Card info={data[2]} imagen={henry}/>
             <Card info={data[3]} imagen={AP}/>
+            <Card info={data[4]} imagen={coder}/>
             </div>
             </div>
             <div id="contenedor2-Educationbody">

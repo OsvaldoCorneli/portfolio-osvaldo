@@ -9,7 +9,7 @@
         "id": 2,
         "name": "DIGITAL HOUSE",
         "curso": "Full Stack Developer - Node",
-        "time": "Ago 2023 - En curso"
+        "time": "Ago 2023 - Abril 2024"
     },{
         "id": 3,
         "name": "SOY HENRY",
@@ -19,5 +19,10 @@
         "id": 4,
         "name": "ARGENTINA PROGRAMA 4.0",
         "curso": "Programacion",
-        "time": "Sep 2022 - Nov 2022"}
+        "time": "Sep 2022 - Nov 2022"
+    },{
+        "id": 5,
+        "name": "Coder House",
+        "curso": "Diseño UX/UI",
+        "time": "May 2024 - En curso"}
 ]
